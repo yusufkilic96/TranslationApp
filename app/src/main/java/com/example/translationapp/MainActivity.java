@@ -116,27 +116,27 @@ public class MainActivity extends Activity implements RecognitionListener {
             if(text.equals("number")) {
                 makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
             } else if (text.equals("north")) {
-                makeText(getApplicationContext(), "kuzey", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "north - kuzey", Toast.LENGTH_SHORT).show();
             } else if (text.equals("east")) {
-                makeText(getApplicationContext(), "doğu", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "east - doğu", Toast.LENGTH_SHORT).show();
             } else if (text.equals("west")) {
-                makeText(getApplicationContext(), "batı", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "west - batı", Toast.LENGTH_SHORT).show();
             } else if (text.equals("south")) {
-                makeText(getApplicationContext(), "güney", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "south - güney", Toast.LENGTH_SHORT).show();
             } else if (text.equals("place")) {
-                makeText(getApplicationContext(), "mekan", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "place - mekan", Toast.LENGTH_SHORT).show();
             } else if (text.equals("church")) {
-                makeText(getApplicationContext(), "kilise", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "church - kilise", Toast.LENGTH_SHORT).show();
             } else if (text.equals("mosque")) {
-                makeText(getApplicationContext(), "cami", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "mosque - cami", Toast.LENGTH_SHORT).show();
             } else if (text.equals("file")) {
-                makeText(getApplicationContext(), "dosya", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "file - dosya", Toast.LENGTH_SHORT).show();
             } else if (text.equals("bus")) {
-                makeText(getApplicationContext(), "otobüs", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "bus - otobüs", Toast.LENGTH_SHORT).show();
             } else if (text.equals("hello")) {
-                makeText(getApplicationContext(), "merhaba", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "hello - merhaba", Toast.LENGTH_SHORT).show();
             } else if (text.equals("language")) {
-                makeText(getApplicationContext(), "dil", Toast.LENGTH_SHORT).show();
+                makeText(getApplicationContext(), "langauge - dil", Toast.LENGTH_SHORT).show();
             }else {
                 makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
             }

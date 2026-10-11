@@ -12,3 +12,23 @@
 /captures
 .externalNativeBuild
 .cxx
+
+# Android Studio
+.idea/
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Build outputs
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.iml
